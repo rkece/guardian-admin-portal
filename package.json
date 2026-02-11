@@ -1,0 +1,23 @@
+{
+    "name": "women-safety-app",
+    "version": "1.0.0",
+    "description": "Professional Women Safety Protection Platform",
+    "main": "server/server.js",
+    "scripts": {
+        "server": "cd server && node server.js",
+        "client": "cd client && npm run dev",
+        "dev": "concurrently \"npm run server\" \"npm run client\"",
+        "install-all": "npm install && cd server && npm install && cd ../client && npm install"
+    },
+    "keywords": [
+        "women-safety",
+        "mern",
+        "iot",
+        "emergency"
+    ],
+    "author": "",
+    "license": "MIT",
+    "devDependencies": {
+        "concurrently": "^8.2.2"
+    }
+}
